@@ -27,6 +27,7 @@ nav a:hover {
   text-align: center;
   position: relative;
   top: 100px;
+  /* background: url('https://images.unsplash.com/photo-1485627941502-d2e6429a8af0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80') no-repeat bottom center/cover; */
 }
 
 .home h1 {
@@ -60,6 +61,7 @@ nav a:hover {
   position: relative;
   top: 150px;
   height: 100vh;
+  /* background: url('https://images.unsplash.com/photo-1431373878197-8da4e53be0c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80') no-repeat bottom center/cover; */
 }
 
 .skills h1 {
