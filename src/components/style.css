@@ -48,6 +48,7 @@ nav a:hover {
   height: 300px;
   width: 350px;
   padding: 25px;
+  border-radius: 50%;
 }
 
 .skills {
@@ -120,6 +121,51 @@ nav a:hover {
   text-align: center;
 }
 
+#js {
+  animation-name: jsslide;
+  animation-duration: 1s;
+}
+
+#php {
+  animation-name: phpslide;
+  animation-duration: 2s;
+}
+
+#ruby {
+  animation-name: rubyslide;
+  animation-duration: 3s;
+}
+
+#css {
+  animation-name: cssslide;
+  animation-duration: 4s;
+}
+
+#node {
+  animation-name: nodeslide;
+  animation-duration: 5s;
+}
+
+#laravel {
+  animation-name: larslide;
+  animation-duration: 6s;
+}
+
+#html {
+  animation-name: htmlslide;
+  animation-duration: 7s;
+}
+
+#wp {
+  animation-name: wpslide;
+  animation-duration: 8s;
+}
+
+#git {
+  animation-name: gitslide;
+  animation-duration: 9s;
+}
+
 @keyframes h1slide {
   from {
     margin-left: 100%;
@@ -143,4 +189,7 @@ nav a:hover {
     width: 100%
   }
 }
+
+
+
 
