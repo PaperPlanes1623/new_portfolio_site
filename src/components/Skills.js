@@ -43,14 +43,14 @@ const Skills = () => {
       </div>
       <div className="flex-container">
         <div className="skill-icons" id="js"><Icon name="js square icon" size="huge" style={{ color: 'gold' }} /></div>
-        <div className="skill-icons" id="php"><Icon name="php icon" size="huge" style={{ color: 'darkblue' }} /></div>
+        <div className="skill-icons" id="php"><Icon name="php icon" size="huge" style={{ color: 'white' }} /></div>
         <div className="skill-icons" id="ruby"><Icon name="gem icon" size="huge" style={{ color: 'red' }} /></div>
         <div className="skill-icons" id="css"><Icon name="css3 alternate icon" size="huge" style={{ color: 'blue' }} /></div>
         <div className="skill-icons" id="node"><Icon name="node icon" size="huge" style={{ color: 'forestgreen' }} /></div>
         <div className="skill-icons" id="laravel"><Icon name="laravel icon" size="huge" style={{ color: 'red' }} /></div>
         <div className="skill-icons" id="html"><Icon name="html5 icon" size="huge" style={{ color: 'orangered' }} /></div>
         <div className="skill-icons" id="wp"><Icon name="wordpress icon" size="huge" style={{ color: 'dodgerblue' }} /></div>
-        <div className="skill-icons" id="git"><Icon name="git icon" size="huge" style={{ color: 'black' }} /></div>
+        <div className="skill-icons" id="git"><Icon name="git icon" size="huge" style={{ color: 'white' }} /></div>
       </div>
     </section>
   )

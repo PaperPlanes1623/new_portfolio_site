@@ -11,7 +11,7 @@ const Contact = () => {
           <a href="https://www.linkedin.com/in/dylan-taft-454a1a17a/">LinkedIn</a>
         </div>
         <div className="social-icons">
-          <Icon name="github" size="massive" style={{ color: 'black' }} />
+          <Icon name="github" size="massive" style={{ color: 'white' }} />
           <a href="https://github.com/PaperPlanes1623">Github</a>
         </div>
         <div className="social-icons">
@@ -24,7 +24,7 @@ const Contact = () => {
         </div>
       </div>
       <footer>
-        <p>Portfolio made by Dylan Taft</p>
+        <p>Site made by Dylan Taft</p>
         <a href="home">Back to top</a>
       </footer>
     </div>
