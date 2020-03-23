@@ -56,8 +56,19 @@ nav a:hover {
   height: 100vh;
 }
 
+.skills h1 {
+  text-decoration: underline;
+}
+
 .skills ul li {
   list-style: none;
+  padding: 10px;
+  font-size: 21px;
+}
+
+.skill-icons {
+  margin-top: 100px;
+  padding: 35px;
 }
 
 .head {

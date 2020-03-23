@@ -1,4 +1,5 @@
 import React from 'react';
+import { Icon } from 'semantic-ui-react';
 
 const Skills = () => {
 
@@ -30,15 +31,26 @@ const Skills = () => {
         <div className="flex">
           <h1>Frameworks</h1>
           <ul>
-          {mapFrameworks}
+            {mapFrameworks}
           </ul>
         </div>
         <div className="flex">
           <h1>Other Skills</h1>
           <ul>
-          {mapOtherSkills}
+            {mapOtherSkills}
           </ul>
         </div>
+      </div>
+      <div className="flex-container">
+        <div className="skill-icons"><Icon name="js square icon" size="huge" style={{ color: 'gold' }} /></div>
+        <div className="skill-icons"><Icon name="php icon" size="huge" style={{ color: 'darkblue' }} /></div>
+        <div className="skill-icons"><Icon name="gem icon" size="huge" style={{ color: 'red' }} /></div>
+        <div className="skill-icons"><Icon name="css3 alternate icon" size="huge" style={{ color: 'blue' }} /></div>
+        <div className="skill-icons"><Icon name="node icon" size="huge" style={{ color: 'forestgreen' }} /></div>
+        <div className="skill-icons"><Icon name="laravel icon" size="huge" style={{ color: 'red' }} /></div>
+        <div className="skill-icons"><Icon name="html5 icon" size="huge" style={{ color: 'orangered' }} /></div>
+        <div className="skill-icons"><Icon name="wordpress icon" size="huge" style={{ color: 'dodgerblue' }} /></div>
+        <div className="skill-icons"><Icon name="git icon" size="huge" style={{ color: 'black' }} /></div>
       </div>
     </section>
   )
