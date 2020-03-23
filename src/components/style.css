@@ -1,3 +1,7 @@
+body {
+  color: slateblue;
+}
+
 nav {
   position: fixed;
   right: 0;
@@ -50,6 +54,10 @@ nav a:hover {
   position: relative;
   top: 150px;
   height: 100vh;
+}
+
+.skills ul li {
+  list-style: none;
 }
 
 .head {

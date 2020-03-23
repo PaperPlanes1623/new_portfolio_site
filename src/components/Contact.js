@@ -7,20 +7,20 @@ const Contact = () => {
       <h1 className="head">Find Me At:</h1>
       <div className="flex-container">
         <div className="social-icons">
-          <Icon name="github" size="massive" />
+          <Icon name="linkedin" size="massive" id="linkedin" style={{ color: 'dodgerblue' }} />
+          <a href="https://www.linkedin.com/in/dylan-taft-454a1a17a/">LinkedIn</a>
+        </div>
+        <div className="social-icons">
+          <Icon name="github" size="massive" style={{ color: 'black' }} />
           <a href="https://github.com/PaperPlanes1623">Github</a>
         </div>
         <div className="social-icons">
-          <Icon name="linkedin" size="massive" />
-          <a href="https://github.com/PaperPlanes1623">LinkedIn</a>
+          <Icon name="stack overflow icon" size="massive" style={{ color: 'darkorange' }} />
+          <a href="https://stackoverflow.com/users/11473467/dylan-t">Stack Overflow</a>
         </div>
         <div className="social-icons">
-          <Icon name="facebook" size="massive" />
-          <a href="https://github.com/PaperPlanes1623">Facebook</a>
-        </div>
-        <div className="social-icons">
-          <Icon name="codepen" size="massive" />
-          <a href="https://github.com/PaperPlanes1623">Codepen</a>
+          <Icon name="facebook" size="massive" style={{ color: 'blue' }} />
+          <a href="https://www.facebook.com/dylan.d.taft">Facebook</a>
         </div>
       </div>
       <footer>
